@@ -1,10 +1,16 @@
-﻿internal class Program
+﻿using System;
+
+class Program
 {
-    
-    private static void Main(string[] args)
+    static void Main()
     {
-        MyDate md1 = new MyDate(DateTime.Now.Day,DateTime.Now.Month, DateTime.Now.Year);
-        Console.WriteLine("{0}/{1}/{2}",md1.Day,md1.Month,md1.Year);
-        Console.ReadKey();
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.InputEncoding = System.Text.Encoding.UTF8;
+        string hoTen = "Trần Đức Tuấn Tú";
+        string maSV = "12424033";
+        string lop = "12424TN";
+        string github = "https://github.com/ttu1611/oop";
+        string email = "ttu55330@gmail.com";
+        Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}", hoTen, maSV, lop, github, email);
     }
 }
