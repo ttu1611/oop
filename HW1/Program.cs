@@ -5,6 +5,8 @@ class Program
 {
     static void Main()
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.InputEncoding = System.Text.Encoding.UTF8;
         string ten, masv, lop, email, github;
 
         Console.Writeline("Nhập họ và tên:");
